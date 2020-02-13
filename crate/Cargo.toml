@@ -1,7 +1,10 @@
 [package]
-name = "sandtable"
+name = "shellspiel"
 version = "0.1.0"
-authors = ["maxbittker"]
+authors = ["ember arlynx <ember@lunar.town>"]
+description = "An artillery game"
+repository = "https://github.com/emberian/shellspiel"
+license = "MIT"
 
 [lib]
 crate-type = ["cdylib", "rlib"]

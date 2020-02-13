@@ -1,17 +1,21 @@
 <meta charset="utf-8"/>
 
-# sandspiel
+# shellspiel
 
-"Imagine the cool phenomenon when the wind blows the falling leaves. This game simulates the phenomenon with powder (dots)!" -DAN-BALL
+Ever played [Pocket Tanks](https://en.wikipedia.org/wiki/Pocket_Tanks)?
+
+An artillery game inspired by https://github.com/MaxBittker/sandspiel
+and frustration with mobile apps.
 
 ![](Screenshot.png)
 
-This is a [falling sand](https://en.wikipedia.org/wiki/Falling-sand_game) game built in rust (via wasm), webgl, and some JS glueing things together.
+This is a [artillery](https://en.wikipedia.org/wiki/Artillery_game) game built in rust (via wasm), webgl, and some JS glueing things together.
 
-You can [play online](https://sandspiel.club) or read [a longer post on the project](https://maxbittker.com/making-sandspiel)
+You can't [play online](https://shellspiel.lunar.town) or read [a longer post on the project](https://shellspiel.lunar.town/writing)
 
-The goal was to produce an cellular automata environment that's interesting to play with and supports the sharing and forking of fun creations with other players.
-Ultimately, I want the platform to support editing and uploading of your own elements via a programmable cellular automata API.
+The goal is to produce a game I can play on the couch with my friends that doesn't frustrate me and features playful combat.
+
+Thank you, Max, for sandspiel, I enjoy it a lot :)
 
 ### 🛠️ Build:
 
@@ -24,8 +28,3 @@ npm run start;
 # then in a seperate terminal:
 cargo watch -s 'wasm-pack build'
 ```
-
-a successor to my previous efforts in [javascript](https://github.com/MaxBittker/dust) and [lua](https://github.com/MaxBittker/sand-toy)
-
-Fluid simulation code adopted from
-https://github.com/PavelDoGreat/WebGL-Fluid-Simulation
